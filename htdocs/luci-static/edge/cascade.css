@@ -3182,7 +3182,6 @@ input[type="checkbox"] {
 	padding: 0;
 	cursor: pointer;
 	transition: all 0.2s;
-	display:none;
 }
 input[type="checkbox"]:nth-of-type(-n+2){
 	display:none;
