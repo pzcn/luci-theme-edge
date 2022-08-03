@@ -58,7 +58,7 @@
 }
 
 a {
-	color: #5A8DEE;
+	color: #FC7607;
 	text-decoration: none;
 	background-color: transparent;
 }
@@ -215,7 +215,7 @@ a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #5A8DEE;
+	background-color: #FC7607;
 	-webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
 	animation: sk-foldCubeAngle 2.4s infinite linear both;
 	-webkit-transform-origin: 100% 100%;
@@ -475,7 +475,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	-o-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	transition: all 0.4s;
-	background: #5A8DEE;
+	background: #FC7607;
 }
 
 select+.focus-input::before {
@@ -639,7 +639,7 @@ p {
 
 .main-left .sidenav-header .brand {
 	font-size: 1.8rem;
-	color: #5A8DEE;
+	color: #FC7607;
 	font-family: "TypoGraphica";
 	text-decoration: none;
 	text-align: center;
@@ -744,7 +744,7 @@ header .fill .status * {
 }
 
 .modal.alert-message {
-	background-color: #5A8DEE;
+	background-color: #FC7607;
 	color: #fff;
 }
 
@@ -797,13 +797,13 @@ header .fill .status * {
 	margin-bottom: 1em;
 	padding: 0.7rem 1rem;
 	background: rgba(90, 141, 238, 0.2);
-	color: #5A8DEE;
+	color: #FC7607;
 	border: 0;
 }
 
 .alert a,
 .alert-message a {
-	color: #5A8DEE;
+	color: #FC7607;
 }
 
 .alert h4,
@@ -878,7 +878,7 @@ header .fill .status * {
 
 .main .main-left .nav li .menu.active {
 	color: #fff;
-	background: #5A8DEE;
+	background: #FC7607;
 }
 
 .main .main-left .nav li .menu.active::before {
@@ -893,7 +893,7 @@ header .fill .status * {
 .main .main-left .nav>li>a:first-child:hover {
 	cursor: pointer;
 	color: #fff;
-	background: #5A8DEE;
+	background: #FC7607;
 }
 
 .main .main-left .nav>li>a:first-child:hover::before {
@@ -1025,7 +1025,7 @@ header .fill .status * {
 	bottom: 0;
 	width: 0;
 	height: 2px;
-	background-color: #5A8DEE;
+	background-color: #FC7607;
 	transition: all 0.2s;
 }
 
@@ -1053,7 +1053,7 @@ header .fill .status * {
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background-color: #5A8DEE;
+	background-color: #FC7607;
 	transition: all 0.2s;
 }
 
@@ -1455,7 +1455,7 @@ button:hover,
 .cbi-button[onclick="addKey(event)"] {
 	font-weight: normal;
 	color: #fff;
-	background-color: #5A8DEE !important;
+	background-color: #FC7607 !important;
 }
 /* red */
 .btn.danger,
@@ -1471,7 +1471,7 @@ button:hover,
 	font-weight: normal;
 	color: #fff;
 	border: none;
-	background-color: #fdb75a !important;
+	background-color: #00CCFF !important;
 }
 /* yellow */
 .btn[value="Dismiss"],
@@ -1526,7 +1526,7 @@ button:hover,
 
 .tabs > li[class~="active"],
 .tabs > li:hover {
-	border-bottom-color: #5A8DEE;
+	border-bottom-color: #FC7607;
 	background-color: #669bff36;
 }
 
@@ -1543,8 +1543,8 @@ button:hover,
 }
 
 .tabs > li[class~="active"] > a {
-	color: #5A8DEE;
-	color: #5A8DEE;
+	color: #FC7607;
+	color: #FC7607;
 }
 
 ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
@@ -1572,16 +1572,16 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 }
 
 .cbi-tabmenu > li:hover {
-	background-color: rgba(246,178,181,0.2);
+	background-color: rgba(0,153,255,0.2);
 }
 
 .cbi-tabmenu > li[class~="cbi-tab"] {
-	background-color: rgba(246,178,181,0.2);
-	border-bottom-color: #ff9b84;
+	background-color: rgba(0,153,255,0.2);
+	border-bottom-color: #3366CC;
 }
 
 .cbi-tabmenu > li[class~="cbi-tab"] a {
-	color: #ee6e73;
+	color: #0471FF;
 }
 
 .cbi-section .cbi-section-remove:nth-of-type(2n),
@@ -1776,8 +1776,8 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 	padding: 1em 0.25em 0.25em 0;
 	pointer-events: none;
 	color: #8898aa;
-	border-bottom: 2px solid #5A8DEE;
-	border-bottom: 2px solid #5A8DEE;
+	border-bottom: 2px solid #FC7607;
+	border-bottom: 2px solid #FC7607;
 	outline: 0;
 }
 
@@ -2050,7 +2050,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 	width: 0;
 	height: 100%;
 	transition: width 0.25s ease-in;
-	background-color: #5A8DEE;
+	background-color: #FC7607;
 	background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
 	background-size: auto auto;
 	animation: progress-bar-stripes 1s linear infinite;
@@ -2072,7 +2072,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 	text-align: center;
 	white-space: pre;
 	text-overflow: ellipsis;
-	color: #ff4500d1;
+	color: #3366CCd1;
 }
 
 #modal_overlay {
@@ -2159,7 +2159,7 @@ h3+p,h4+p {
 
 .modal .label.notice {
 	color: #fff;
-	background: #5A8DEE;
+	background: #FC7607;
 }
 
 body.modal-overlay-active {
@@ -2316,8 +2316,8 @@ textarea {
 
 textarea:focus{
 	outline: none;
-	border: 1px solid #5A8DEE !important;
-	box-shadow: 0 0px 5px 0 #5A8DEE;
+	border: 1px solid #FC7607 !important;
+	box-shadow: 0 0px 5px 0 #FC7607;
 }
 
 .cbi-section textarea {
@@ -2440,7 +2440,7 @@ textarea:focus{
 }
 
 .ifacebox-head.active {
-	background: #5A8DEE;
+	background: #FC7607;
 }
 
 .ifacebox-head.active * {
@@ -2601,7 +2601,7 @@ span[data-tooltip] .label {
 	text-shadow: none;
 	margin: 0 0.5rem;
 	color: #fff;
-	background: #5A8DEE;
+	background: #FC7607;
 }
 
 #indicators span[data-indicator="poll-status"] {
@@ -2881,7 +2881,7 @@ input[name="nslookup"] {
 }
 
 .node-main-login .main .main-right #maincontent .container .cbi-page-actions .cbi-button {
-	background-color: #5a8deec7;
+	background-color: #FC7607c7;
 }
 
 .node-main-login .main .main-right #maincontent .container .cbi-page-actions .cbi-button.cbi-button-reset {
@@ -3200,9 +3200,9 @@ display:none !important;
 }
 
 input[type="checkbox"]:checked {
-	border: 1px solid #5A8DEE;
+	border: 1px solid #FC7607;
 	background-image: url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 8 8\'%3e%3cpath fill=\'%23fff\' d=\'M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z\'/%3e%3c/svg%3e') !important;
-	background-color: #5A8DEE;
+	background-color: #FC7607;
 	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3565,6 +3565,7 @@ input[type="checkbox"]:checked {
 		-moz-osx-font-smoothing: grayscale;
 		content: "\e20e";
 		font-size: 1.7rem;
+    font-color: 1.7rem;
 	}
 
 	header > .fill > .container > .brand {
@@ -3651,7 +3652,7 @@ input[type="checkbox"]:checked {
 }
 
 .cpu .cbi-progressbar > div {
-	background-color: #5A8DEE !important;
+	background-color: #FC7607 !important;
 }
 
 .memory .cbi-progressbar > div {
@@ -4102,7 +4103,7 @@ div[id^="cbi-unblockmusic"] .cbi-button {
 	width: 100%;
 	z-index: 9999;
 	text-align: center;
-	background: #5A8DEE;
+	background: #FC7607;
 }
 
 .chromeframe {
