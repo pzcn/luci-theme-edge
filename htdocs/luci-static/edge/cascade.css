@@ -936,7 +936,7 @@ header .fill .status * {
 	transition: all 0.3s;
 }
 
-.main .main-left .nav li .menu[data-title=Dashboard]:before {
+.main .main-left .nav li a[data-title=Dashboard]:before {
         content: "\e90d";
         color: #2dce89;
 }
