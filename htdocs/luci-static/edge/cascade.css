@@ -1396,7 +1396,6 @@ td > table > tbody > tr > td,
 }
 
 button:hover,
-.waves-input-wrapper:hover,
 .btn:hover,
 .cbi-button:hover,
 .item:hover::after {
@@ -3188,7 +3187,7 @@ input[type="checkbox"] {
 	cursor: pointer;
 	transition: all 0.2s;
 }
-input[type="checkbox"]:nth-of-type(-n+2){
+div[id^="cbid."]>input[type="checkbox"]{
 	display:none;
 }
 .cbi-dropdown[open]>ul.dropdown>li label {
@@ -3644,10 +3643,6 @@ input[type="checkbox"]:checked {
 	}
 }
 
-.waves-input-wrapper {
-	background-color: #475F7B;
-}
-
 .cbi-button,.btn {
 	background-color: #23bd70;
 }
@@ -3969,8 +3964,22 @@ input,select {
 	background: none;
 }
 
+input:not([type=button]):not([type=submit]):not([type=checkbox]),select {
+	border:0 !important;
+	background-image:linear-gradient(dodgerblue,dodgerblue),linear-gradient(#a9a9a9,#a9a9a9);
+    background-size:0 2px,100% 1px;
+    background-position:left bottom,center calc(100% - 1px);
+    background-repeat:no-repeat;
+    transition: all .3s !important;
+}
+
+select:focus, input:not([type=button]):not([type=submit]):focus {
+    background-size: 100% 2px,100% 1px;
+    transition: all .3s !important;
+}
+
 .btn,button,
-  .cbi-button,input[type=button],input[type=submit],input[type=reset],.waves-input-wrapper {
+  .cbi-button,input[type=button],input[type=submit],input[type=reset] {
 	height: auto !important;
 	width: auto !important;
 	padding: 0.6rem 1.6rem;
@@ -3981,15 +3990,12 @@ input,select {
 	transition: all .20s linear;
 	top: 0;
 	margin-left: 0.5rem;
+	position:relative;
 }
 
 .btn:first-child,button:first-child,
-  .cbi-button:first-child,input[type=button]:first-child,input[type=submit]:first-child,input[type=reset]:first-child,.waves-input-wrapper:first-child {
+  .cbi-button:first-child,input[type=button]:first-child,input[type=submit]:first-child,input[type=reset]:first-child {
 	margin-left: 0;
-}
-
-i.waves-input-wrapper {
-	padding: 0 !important;
 }
 
 i input {
@@ -4042,18 +4048,6 @@ ul.errors li {
 
 #cbi-passwall .block h4 {
 	padding:0;
-}
-
-.waves-input-wrapper .waves-button-input {
-	line-height: 1rem;
-}
-
-.cbi-dropdown.waves-effect {
-	display: inline-flex;
-}
-
-#cbi-AdGuardHome-AdGuardHome .waves-input-wrapper>input {
-	color: #fff !important;
 }
 
 input[type=password]+.cbi-button.cbi-button-neutral {
@@ -4137,8 +4131,13 @@ table.interfaces .th{
 .cbi-value>.cbi-value-field>div:first-child+br{
 display:none;
 }
+
 .cbi-page-actions.control-group.fixed {
     position: fixed;
     bottom: 1.3rem;
     right: 2rem;
+}
+
+#cbi-vssr+.cbi-page-actions.control-group.fixed {
+    bottom: 4.8rem;
 }
